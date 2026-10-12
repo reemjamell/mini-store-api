@@ -21,3 +21,9 @@ RESTful API مبسط لإدارة منتجات المتجر، مبني باست�
 Npm install
 Node server.js
 
+## التشغيل باستخدام Docker
+1.	بناء الصورة (Build Image):
+```bash
+Docker build -t mini-store-api .
+## تشغيل الحاوية (Run Container):
+Docker run -p 3000:3000 minI-store-api
